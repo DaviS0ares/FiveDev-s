@@ -1,4 +1,4 @@
-    const localStorageKey = 'to-do-list-Five Devs'
+const localStorageKey = 'to-do-list-Five Devs longo prazo'
 
 function validateIfExistnewTask()
 {

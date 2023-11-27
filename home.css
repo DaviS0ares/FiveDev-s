@@ -1,0 +1,107 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+h1{
+    margin-top: 10%;
+    text-align: center;
+}
+
+h2{
+    margin-top: 2%;
+    text-align: center;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 43.5%;
+    margin-top: 2.7%;
+    width: 12rem;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 4rem;
+    border: none;
+}
+
+button:hover{
+    border: solid 3px black;
+}
+
+body{
+    background-image: url(./6a56f2f529071dd52a5ee548780e3679.jpeg);
+}
+
+
+/* FOR MOBILE  */
+@media screen and (max-width: 480px){
+
+.btns {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: -19%;
+    margin-top: 10%;
+}
+
+}
+
+
+/* EXTRA SMALL DEVICES  */
+@media (min-width:481px) and (max-width:767px)  { 
+
+    .btns {
+margin-left: -19%;
+margin-top: 10%;
+    }
+}
+
+/* SMALL TABLETS  */
+@media (min-width:768px) and (max-width:991px)  {
+
+.btns{
+    margin-left: -11%;
+    margin-top: 10%;
+}
+
+}
+
+
+/* LARGE TABLETS/DESKTOPS  */
+@media (min-width:992px) and (max-width:1199px)  {
+
+.btns{
+    margin-left: -6%;
+    margin-top: 10%;
+}
+
+}
+
+/* DESKTOPS  */
+@media (min-width:1200px) and (max-width:1919px)  {}
+
+
+/* EXTRA LARGE SCREENS */
+@media (min-width:1920px) {
+    .btns{
+        margin-left: 2.6%;
+    }
+}

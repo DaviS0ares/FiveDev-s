@@ -1,7 +1,16 @@
-:root{
-   
-}
 
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
 body{
     font-family: lato;
     background-color: black;
@@ -65,6 +74,127 @@ body{
            list-style-type: none;
             font-size: 1.4rem;
             text-transform: capitalize;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
 
         }
 
+        #to-do-list li:hover{
+            background-color: rgb(32, 32,32);
+            transition: .4s;
+            border-radius: 1rem;
+            padding-left: 1rem;
+        }
+
+        #btn-ok{
+            background-color: green;
+            border: none;
+            padding: .4rem .8rem;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: .4s; 
+        }
+
+        #btn-ok:hover{
+            background-color: rgb(51, 149, 26);
+            transition: .4s;
+        }
+
+        .PC {
+            margin-top: 5%;
+        }
+
+        .content{
+            margin-top: 2rem;
+        }
+
+        #btn-home {
+            color: white;
+            display: flex;
+            text-align: left;
+            align-items: baseline;
+            justify-content: baseline;
+           position: absolute;
+           top: 5.3rem;
+           left: 30rem;
+            
+        }
+
+
+        body{
+            background-image: url(./6a56f2f529071dd52a5ee548780e3679.jpeg);
+        }
+
+
+        @media screen and (max-width:480px) {
+            
+            #btn-home {
+                position: absolute;
+                top:1%;
+                left: 2px;
+                
+            }
+
+        }
+
+        /* EXTRA SMALL DEVICES  */
+@media (min-width:481px) and (max-width:767px)  {
+
+#btn-home {
+    position: absolute;
+    top: 1%;
+    left: 2px;
+}
+
+}
+
+
+/* SMALL TABLETS  */
+@media (min-width:768px) and (max-width:991px)  {
+
+#btn-home {
+    position: absolute;
+    top: 1%;
+    left:2px;
+}
+
+}
+
+/* LARGE TABLETS/DESKTOPS  */
+@media (min-width:992px) and (max-width:1199px)  { 
+
+    #btn-home {
+        position: absolute;
+        top: 1%;
+        left:2px;
+    }
+}
+
+/* DESKTOPS  */
+@media (min-width:1200px) and (max-width:1919px)  {
+
+    #btn-home {
+        position: absolute;
+        top: 1%;
+        left:2px;
+    }
+
+}
+
+
+/* EXTRA LARGE SCREENS */
+@media (min-width:1920px) {
+
+
+    #btn-home {
+        position: absolute;
+        top: 1%;
+        left:2px;
+    }
+}
